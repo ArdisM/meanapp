@@ -1,0 +1,16 @@
+body{
+  /*background-image: url("http://farm3.static.flickr.com/2645/3759196793_8f95168eb0.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: orange;
+}
+.replicant{
+  font-family: 'Lemon', cursive;
+  color: #C70039;
+}
+.replicant:first-letter{
+  color: purple;
+}
+.replicant:tenth-letter{
+  color: blue;
+}
