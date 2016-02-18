@@ -3,7 +3,7 @@ var app = express();
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
-mongoose.connect('mongodb://localhost/contact_list');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/contact_list');
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
@@ -92,7 +92,7 @@ app.get('/', function(req, res){
   res.sendFile( __dirname + '/views/index.html');
 });
 
-var port = 8080;
+var port = process.env.PORT || 8080;
 app.listen(port, function(){
   console.log('...listening on port ' + port);
 });
