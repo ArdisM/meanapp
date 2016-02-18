@@ -1,8 +1,17 @@
 body{
-  /*background-image: url("http://farm3.static.flickr.com/2645/3759196793_8f95168eb0.jpg");*/
+  background-image: url("https://lh5.googleusercontent.com/qFOemQQk7_rj2lILtidqZZoT0Jx9wYUsN81W8uLJ2c9nedi0LJXDMAust3vRdII-w7WyOxDJLujVyc1XxTfmfyraTdfiIGb5Wcw2qK6gl7COYbFbdCGWRTMiHED9IiDGcA");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: orange;
+}
+p{
+  color:purple;
+  font-family: 'Lemon', cursive;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF, 0 0 100px #FFFFFF, 0 0 150px #FFFFFF;
+}
+.table{
+
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF, 0 0 100px #FFFFFF, 0 0 150px #FFFFFF;
 }
 .replicant{
   font-family: 'Lemon', cursive;
@@ -10,6 +19,7 @@ body{
 }
 .replicant:first-letter{
   color: purple;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF, 0 0 100px #FFFFFF, 0 0 150px #FFFFFF;
 }
 .replicant:tenth-letter{
   color: blue;
